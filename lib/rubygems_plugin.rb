@@ -1,5 +1,3 @@
-puts "bar"
-
-Gem.install do
-  puts "foo"
+Gem.install do|_|
+  puts "Gem install callback"
 end
